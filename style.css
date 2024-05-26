@@ -1,0 +1,47 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Century;
+}
+
+header {
+    background-image: url('bg.jpeg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 31px;
+    min-height: 400px;
+    margin-right: 60px;
+    font-size: 16px;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fdebcd;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.5 ease;
+}
+
+ul li a:hover {
+    background-color: #efdcbe;
+    color: #000000;
+}
+
+.logo {
+    float: left;
+    height: 120px;
+    width: auto;
+
+}
