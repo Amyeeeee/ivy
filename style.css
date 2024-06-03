@@ -2,34 +2,37 @@ body {
     margin: 0px;
     padding: 0px;
     font-family: Century;
-}
-
-header {
     background-image: url('bg.jpeg');
     height: 100vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-
 }
 
 ul {
     float: right;
     list-style-type: none;
-    margin-top: 31px;
-    min-height: 400px;
-    margin-right: 60px;
-    font-size: 16px;
+
+    padding: auto;
+    width: 200px;
+
 }
 
 ul li {
-    display: inline-block;
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+    margin: 1px 1px 1px 1px;
+
 }
 
 ul li a {
+
     text-decoration: none;
+    list-style-type: none;
     color: #fdebcd;
     padding: 5px 20px;
+    margin: 1px 0px 1px;
     border: 1px solid transparent;
     transition: 0.5 ease;
 }
@@ -41,7 +44,19 @@ ul li a:hover {
 
 .logo {
     float: left;
-    height: 120px;
-    width: auto;
+    height: 60px;
+    width: 44px;
+    position: relative;
+    top: -90px;
+
+
+}
+
+.welcome {
+    direction: right;
+    width: 13%;
+    color: forestgreen;
+    font-size: 115%;
+    margin-top: 0px;
 
 }
